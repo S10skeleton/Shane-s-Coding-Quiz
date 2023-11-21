@@ -1,10 +1,13 @@
+// set needed variables and configure the time limit 
+
 let currentQuestionIndex = 0;
 let timer;
-let timeLeft = 60; // example time limit
+let timeLeft = 60; // time limit
 
-function startQuiz() {
-    // hide start button, show first question
-    // start timer
+    // funtion to hide start button after clicked and show first question
+    // it will also start the timer  
+
+function startQuiz()  {
     timer = setInterval(() => {
         timeLeft--;
         document.getElementById('timer').innerText = timeLeft;
