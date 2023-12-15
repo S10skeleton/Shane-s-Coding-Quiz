@@ -8,19 +8,18 @@ SO THAT I can gauge my progress compared to my peers
 
 ## Description
 
-Simple application to quiz the user on Javascript. 
+Simple application to quiz the user on Javascript.
 6 questions with a time limit and when you answer incorrectly
-it will penalize you with a larger time deduction.  At the 
+it will penalize you with a larger time deduction. At the
 end of the quiz the user can input thier name and the top 5
 high scores will be saved.
 
-## Application and Github Links 
+## Application and Github Links
 
-https://s10skeleton.github.io/Shanes-Coding-Quiz/ 
+https://s10skeleton.github.io/Shanes-Coding-Quiz/
 
 https://github.com/S10skeleton/Shanes-Coding-Quiz
 
 ## Screenshot
 
 ![screenshot](./assets/images/Screenshot.png)
-

@@ -32,22 +32,38 @@ const questions = [
   },
   {
     question: "Where is the correct place to insert a JavaScript?",
-    answers: ["Both the <head> and <body>", "The <head> section", "The <body> section", "The very top"],
+    answers: [
+      "Both the <head> and <body>",
+      "The <head> section",
+      "The <body> section",
+      "The very top",
+    ],
     correct: 2,
   },
   {
-    question: "How to write an IF statement for executing some code if 'i' is NOT equal to 5?",
+    question:
+      "How to write an IF statement for executing some code if 'i' is NOT equal to 5?",
     answers: ["if(i != 5)", "if (i <> 5)", "if i <> 5", "if i =! 5 then"],
     correct: 0,
   },
   {
     question: "How can you add a comment in a JavaScript?",
-    answers: ["<!--This is a comment-->", "//This is a comment", "'This is a comment", "#??This is a comment??"],
+    answers: [
+      "<!--This is a comment-->",
+      "//This is a comment",
+      "'This is a comment",
+      "#??This is a comment??",
+    ],
     correct: 1,
   },
   {
     question: "How do you declare a JavaScript variable?",
-    answers: [ "variable carName;", "v carName;", "set carName;", "var carName;"],
+    answers: [
+      "variable carName;",
+      "v carName;",
+      "set carName;",
+      "var carName;",
+    ],
     correct: 3,
   },
   {
@@ -90,7 +106,7 @@ function handleAnswer(isCorrect) {
   // Show next button
   document.getElementById("next-btn").style.display = "block";
 }
-// display results color coded to correct or wrong answer 
+// display results color coded to correct or wrong answer
 function displayResult(isCorrect) {
   const resultElement = document.getElementById("result-message");
   resultElement.innerText = isCorrect ? "Correct!" : "Wrong!";
@@ -128,8 +144,6 @@ function endQuiz() {
   ).innerText = `Quiz finished! Your score: ${finalScore}`;
   document.getElementById("next-btn").style.display = "none";
   document.getElementById("score-submission").style.display = "block"; // Show score submission
-
-
 }
 
 // Hide the quiz container initially
