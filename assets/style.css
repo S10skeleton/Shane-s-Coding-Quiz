@@ -4,8 +4,13 @@
 body {
     display: flex;
     justify-content: center;
-    background-color: rgb(52, 52, 52);
+    /* background-color: rgb(52, 52, 52); */
     color: aliceblue;
+    background-image: url('./images/gameshow.png'); /* Replace with your image path */
+    background-size: cover;  /* Cover ensures the image covers the whole page */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Optional: makes the background image fixed during scroll */
+    background-position: center;
 }
 
 .mainBody {
