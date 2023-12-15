@@ -7,20 +7,37 @@
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
-    <!-- div to hold the questions and answer buttons -->
-    <div id="quiz-container">
-      <div id="quiz">
-        <h2 id="question">Question text?</h2>
-        <div id="answers">
-          <button class="answer">Answer 1</button>
-          <button class="answer">Answer 2</button>
-          <button class="answer">Answer 3</button>
-          <button class="answer">Answer 4</button>
+        <!-- div to hold the questions and answer buttons -->
+      <div class="mainBody">  
+        <button id="start-btn">Start Quiz</button>
+        <h2 id="timer">Time Left: 60</h2>
+        <div id="quiz-container">
+        
+
+          <div id="quiz">
+            <h1 id="question">Question text?</h1>
+            <div id="answers">
+              <button class="answer">Answer 1</button>
+              <button class="answer">Answer 2</button>
+              <button class="answer">Answer 3</button>
+              <button class="answer">Answer 4</button>
+            </div>
+            
+          <button id="next-btn" style="display: none;">Next Question</button>
+            <h2 id="result-message"></h2>
+          <button id="restart">Restart Quiz</button>
+          <div id="results"></div>
         </div>
+        <div id="score-submission" style="display: none;">
+          <input type="text" id="user-name" placeholder="Enter your name" />
+          <button id="submit-score">Submit Score</button>
       </div>
-      <button id="next">Next Question</button>
-      <div id="results"></div>
+      <h3>Top Scores</h3>
+      <ul id="top-scores"></ul>
     </div>
+
+      </div>
+  
     <!-- correctly linked Javascript -->
     <script src="./assets/script.js"></script>
   </body>
